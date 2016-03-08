@@ -1,0 +1,58 @@
+---
+layout: default-blog
+heading: musubi
+subheading: ict, agro-ecologie en aikido
+---
+
+{% include header-blog.html %}
+
+<div class="grid">
+  {% for post in paginator.posts %}
+  <div class="grid-item">
+  <a href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
+      <div class="padded-content">
+        <h2>{{ post.title }}</h2>
+      {% if post.photo_url %}
+        <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
+      {% else %}
+        <!-- <div class="title">{{ post.title }}</div> -->
+        <div class="date">
+		<info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+          {{ post.date | date: "%b %Y" }}
+        </info>
+		</div>
+        {% if post.description %}
+        <span class="body">{{ post.description | markdownify }}</span>
+        {% else %}
+        <span class="body">{{ post.excerpt | markdownify }}</span>
+        {% endif %}
+      {% endif %}<!-- post.photo_url -->
+      </div>
+  </a>
+  {% if post.photo_url and post.description %}
+  <div class="image-description">{{ post.description }}</div>
+  {% elsif post.photo_url and post.excerpt != "" %}
+  <div class="image-description">{{ post.excerpt }}</div>
+  {% endif %}
+  </div>{% endfor %}
+  
+</div>
+
+<div class="container">
+    <!-- Pagination links -->
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">&laquo; Vorige </a>
+      {% else %}
+        <span class="previous">Vorige</span>
+      {% endif %}
+	   <span class="page_number"> [ Pagina: {{ paginator.page }} van {{ paginator.total_pages }} ] </span> 
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next"> Volgende &raquo;</a>
+      {% else %}
+        <span class="next ">Volgende</span>
+      {% endif %}
+    </div>
+	
+  {% include footer.html %}
+</div>

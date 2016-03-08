@@ -1,0 +1,27 @@
+title: musubi.be | ict, agro-ecologie en aikido
+description: Musubi verbindt via technologie, de aarde, de mens.
+sitename: musubi.be
+heading: musubi
+subheading: ict, agro-ecologie, aikido
+baseurl: ''
+permalink: /:title
+sass:
+  sass_dir: /assets/_sass
+  style: :compressed
+collections:
+  - features
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - CNAME
+gems: [jekyll-paginate]
+paginate: 50
+paginate_path: "/blog/page:num/"
+excerpt_separator: <!--more-->
+  
+linkedin_username:    pablopivetta
+facebook_username:    be.musubi
+bitbucket_username:	  pablopivetta
+github_username:      pablopivetta

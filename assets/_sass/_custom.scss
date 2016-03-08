@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'musubi';
+    src:    url('/assets/fonts/musubi.eot');
+    src:    url('/assets/fonts/musubi-iefix.eot') format('embedded-opentype'),
+        url('/assets/fonts/musubi.ttf') format('truetype'),
+        url('/assets/fonts/musubi.woff') format('woff'),
+        url('/assets/fonts/musubi.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'musubi' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-musubi:before {
+    content: "\e900";
+	display: inline-block;
+	text-decoration: none;
+}
+
+a .icon-musubi:hover {
+	text-decoration: none;
+}
+
+/**/
+
+body {
+    font-family: 'Lora', Georgia, serif;
+}
+
+pre {
+  word-break: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  white-space: pre-wrap;
+}
+
+main h2 {
+    font-size: 45px;
+    margin-bottom: 0.75em;
+}
+
+#menu {
+	/*float: right;*/
+}
+
+.navbar-brand:focus,
+.blog:focus {
+	outline: none;
+}
+
+p.back-to-top {
+    font-size: 2.5em;
+    opacity: 0.25;
+    margin-top: 1em;
+    float: right;
+    color: #777;
+}
+
+p.back-to-top a:hover {
+    text-decoration: none;
+}
+
+p.quote {
+	position: relative;
+	padding: 0.5em 2em 0.5em 3.5em;
+	text-align: center;
+	margin: 1.5em 0;
+	overflow: hidden;
+}
+
+p.quote:before {
+    display: block;
+    content: "\201C";
+    line-height: 1;
+    font-size: 6em;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    left: 0;
+    top: -0.1em;
+    color: #ddd;
+}
+
+main section:nth-of-type(4) img {
+	opacity: 0.5;
+	max-width: 125px;
+}
+
+.social {
+	text-align: center;
+	width: 100%;
+    font-size: 17.5px;
+	margin: 1em 0;
+}
+
+i.fa.fa-creative-commons {
+    font-size: 21px;
+}
+
+footer {
+	text-align: center;
+}

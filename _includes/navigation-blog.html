@@ -1,0 +1,26 @@
+<nav role='navigation'>
+  <div class='container'>
+
+    <div class='navbar-header'>
+      <button type='button' data-toggle='collapse' data-target='#menu'>
+        <span class='sr-only'>Toggle navigation</span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+      </button>
+      <a class='navbar-brand' href='/index.html' title="Home | {{ site.sitename }}"><i class="fa fa-home"></i></a>
+    </div>
+
+    <div id='menu' class="navbar-right">
+      <ul>
+        {% for feature in site.features %}
+        <li>
+          <a href='/#{{ feature.id | remove: '/features/' | remove: '01-' | remove: '02-' | remove: '03' | remove: '04-' | remove: '05-' }}'>{{ feature.name }}</a>
+        </li>
+        {% endfor %}
+		<li><a class='blog' href="/blog">Blog</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>

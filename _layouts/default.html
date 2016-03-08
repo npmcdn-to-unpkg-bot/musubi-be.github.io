@@ -1,0 +1,17 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body{% if page.wide_layout %} class="wide"{% endif %}>
+  	{% include navigation.html %}
+  	{{ content }}
+  	<script src='{{ site.baseurl }}/assets/app.js'></script>
+	<script>
+	$( document ).ready(function() {	
+		$('a.navbar-brand').focus();
+	});
+	</script>
+  </body>
+</html>

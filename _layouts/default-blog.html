@@ -1,0 +1,30 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body{% if page.wide_layout %} class="wide"{% endif %}>
+  	{% include navigation-blog.html %}
+  	{{ content }}
+  	<script src='{{ site.baseurl }}/assets/app.js'></script>
+	<script src="//npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+	<script src="//npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+	<script>
+	$( document ).ready(function() {
+		var $grid = $('.grid').masonry({
+		  itemSelector: '.grid-item',
+	  	  percentPosition: true,
+		  isAnimated: true,
+		  gutter: 40
+		});
+
+		$grid.imagesLoaded().progress( function() {
+		  $grid.masonry('layout');
+		});
+		
+		$('a.blog').focus();
+	});
+		</script>
+	</body>
+</html>
