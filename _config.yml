@@ -4,7 +4,7 @@ sitename: musubi.be
 heading: musubi
 subheading: ict, agro-ecologie, aikido
 baseurl: ''
-permalink: /:title
+permalink: /blog/:title
 sass:
   sass_dir: /assets/_sass
   style: :compressed
