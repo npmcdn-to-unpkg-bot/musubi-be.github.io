@@ -10,6 +10,7 @@ $( document ).ready(function() {
 
 	    // prevent default scrolling
 	    e.preventDefault();
+		//history.pushState({}, "", this.href);
 
 	    // scrollTo element
 	    element.ScrollTo();

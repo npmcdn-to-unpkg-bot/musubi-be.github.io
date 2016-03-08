@@ -15,7 +15,7 @@
       <ul>
         {% for feature in site.features %}
         <li>
-          <a href='/#{{ feature.id | remove: '/features/' | remove: '01-' | remove: '02-' | remove: '03' | remove: '04-' | remove: '05-' }}'>{{ feature.name }}</a>
+          <a href='/#{{ feature.id | remove: '/features/' | remove: '01-' | remove: '02-' | remove: '03-' | remove: '04-' | remove: '05-' }}'>{{ feature.name }}</a>
         </li>
         {% endfor %}
 		<li><a class='blog' href="/blog">Blog</a></li>
