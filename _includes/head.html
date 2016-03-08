@@ -20,10 +20,7 @@
 	<meta name="og:description" content="Pablo Pivetta | Musubi - mensen en organisaties verbinden via ict, agro-ecologie en aikido">
 {% endif %}
 
-{% if page.og_image_url %}
-  <meta property="og:image" content="http://www.musubi.be{{ page.og_image_url }}">
-  <meta property="og:image:url" content="http://www.musubi.be{{ page.og_image_url }}">
-  {% else if page.photo_url %}
+{% if page.photo_url %}
   <meta property="og:image" content="http://www.musubi.be{{ page.photo_url }}">
   <meta property="og:image:url" content="http://www.musubi.be{{ page.photo_url }}">
   {% else %}
