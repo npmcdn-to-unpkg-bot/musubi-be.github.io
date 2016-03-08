@@ -5,17 +5,21 @@
   
 {% if page.title %}
   	<meta property="og:title" content="{{ page.title }}">
+	{% else %}
+	<meta property="og:title" content="Pablo Pivetta | Musubi">
+{% endif %}
+
 {% if page.description %}
 	<meta name="description" content="{{ page.description }}">
     <meta name="og:description" content="{{ page.description }}">
     {% else if content %}
     <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}">
     <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
-    {% endif %}
-  {% else %}
+  	{% else %}
     <meta name="description" content="Pablo Pivetta | Musubi - mensen en organisaties verbinden via ict, agro-ecologie en aikido">
-  {% endif %}
-  {% if page.og_image_url %}
+{% endif %}
+
+{% if page.og_image_url %}
   <meta property="og:image" content="http://www.musubi.be{{ page.og_image_url }}">
   <meta property="og:image:url" content="http://www.musubi.be{{ page.og_image_url }}">
   {% else if page.photo_url %}
@@ -24,7 +28,7 @@
   {% else %}
   <meta property="og:image" content="http://www.musubi.be/images/musubi.jpg" />
   <meta property="og:image:url" content="http://www.musubi.be/images/musubi.jpg" />
-  {% endif %}
+{% endif %}
   <meta property="og:site_name" content="musubi.be">
   <meta property="og:type" content="article">
   <meta property="og:locale" content="nl_BE" />
