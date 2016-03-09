@@ -24,6 +24,9 @@ paginate_path: "/blog/page:num/"
 excerpt_separator: <!--more-->
   
 linkedin_username:    pablopivetta
-facebook_username:    be.musubi
-bitbucket_username:	  pablopivetta
-github_username:      pablopivetta
+facebook_username:    pablomusubi
+bitbucket_username:	  pablomusubi
+github_username:      pablomusubi
+#twitter_username:	  pablomusubi
+#pinterest_username:   pablomusubi
+#instagram_username:   pablomusubi
