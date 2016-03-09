@@ -113,6 +113,12 @@ i.fa.fa-creative-commons {
     font-size: 21px;
 }
 
+.social li:nth-child(3) a,
+.social li:nth-child(4) a,
+.social li:nth-child(5) a {
+	opacity: 0.3;
+}
+
 footer {
 	text-align: center;
 }
