@@ -16,7 +16,9 @@ exclude:
   - README.md
   - LICENSE.txt
   - CNAME
-gems: [jekyll-paginate]
+gems: 
+  - jekyll-paginate
+  - jekyll-redirect-from
 paginate: 50
 paginate_path: "/blog/page:num/"
 excerpt_separator: <!--more-->
