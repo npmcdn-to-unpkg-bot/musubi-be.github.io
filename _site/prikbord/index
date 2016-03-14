@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Redirecting...</title>
-<link rel="canonical" href="http://www.musubi.be/blog">
-<meta http-equiv="refresh" content="0; url=http://www.musubi.be/blog">
+<link rel="canonical" href="/blog/">
+<meta http-equiv="refresh" content="0; url=/blog/">
 <h1>Redirecting...</h1>
-<a href="http://www.musubi.be/blog">Click here if you are not redirected.</a>
-<script>location="http://www.musubi.be/blog"</script>
+<a href="/blog/">Click here if you are not redirected.</a>
+<script>location="/blog/"</script>
