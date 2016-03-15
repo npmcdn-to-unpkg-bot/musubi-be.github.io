@@ -27,7 +27,7 @@ image: "/images/musubi.svg"
 
 ### Tegengestelde polen verzoenen
 
-> De eerste jaren van mijn leven bracht ik in Burkina Faso door, waar mijn vader meewerkte aan een acro-ecologisch project. Later werd België mijn thuis. Ik werd Franstalig opgevoed, ging naar een Nederlandstalige school en schipperde tussen stad en platteland. Als product van een Brusselse moeder en een vader met Italiaanse roots, zit het me verhouden tot prikkelende spanningsvelden me in het bloed. 
+> De eerste jaren van mijn leven bracht ik in Burkina Faso door, waar mijn vader meewerkte aan een agro-ecologisch project. Later werd België mijn thuis. Ik werd Franstalig opgevoed, ging naar een Nederlandstalige school en schipperde tussen stad en platteland. Als product van een Brusselse moeder en een vader met Italiaanse roots, zit het me verhouden tot prikkelende spanningsvelden me in het bloed. 
 >
 > Ik ben net zo hard geboeid door technologie als door primitieve samenlevingen die op bewustzijnsniveau hoogontwikkeld zijn. Ik houd van dieren, groen en het buitenleven, maar geniet evenzeer van een goed boek of van het ontwikkelen van websites. Ik ben een wereldverbeteraar én een levensgenieter. Soms een lonesome cowboy, dan weer een een knowmad of sociale piraat die voor de goede zaak de wereld intrekt.
 > Ook Aikido is voor mij een manier om schijnbaar tegengestelde polen te verbinden: bewustzijn, rust en fysieke beweging vloeien er mooi in samen. 
