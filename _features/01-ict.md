@@ -16,6 +16,7 @@ Informatie- en computertechnologie is een fantastisch middel om mensen dichter b
 > <strong>Web</strong>
 >
 > * Front end development en optimalisatie
+> * Slicing (psd -> html)
 > * Open source CMS (WordPress, Drupal…)
 > * E-commerce
 > * SEO (Search Engine Optimization)
