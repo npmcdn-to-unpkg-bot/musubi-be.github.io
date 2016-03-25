@@ -99,9 +99,12 @@ p.quote:before {
 
 .intro {
     margin-top: 40px;
-    text-align: center;
-    background: beige;
-    padding: 1em;
+	line-height: 2em;
+	font-size: 17.5px;
+}
+
+.intro mark {
+	background: aquamarine;
 }
 
 main section:nth-of-type(4) img {
