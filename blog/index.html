@@ -8,7 +8,7 @@ redirect_from:
 
 {% include header-blog.html %}
 
-<div class="grid">
+<div class="grid">	
   {% for post in paginator.posts %}
   <div class="grid-item">
   <a href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
@@ -55,6 +55,11 @@ redirect_from:
         <span class="next ">Volgende</span>
       {% endif %}
     </div>
+	
+	<p class='back-to-top'>
+		<a href='#top' class='top'><i class='fa fa-angle-up'>&nbsp;</i></a>
+	</p>
+
 	
   {% include footer.html %}
 </div>
